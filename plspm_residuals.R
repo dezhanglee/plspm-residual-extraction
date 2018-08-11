@@ -8,7 +8,6 @@ if(length(new.packages)) install.packages(new.packages)
 
 #modified from plspm/R/res.clus.r
 #takes in a plspm object as input
-#returns original data frame, appended w the residuals in the last column
 
 resid <-  function (pls, Y = NULL) {
 
